@@ -41,7 +41,7 @@ function clickCoords(event) {
     event.preventDefault();
 }
 
-navigator.geolocation.getCurrentPosition(getHereLocation);
+navigator.geolocation.getCurrentPosition(getCurrentWeather);
 
 let currentButton = document.querySelector("#current-location");
 currentButton.addEventListener("click", clickCoords)
