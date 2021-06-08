@@ -30,6 +30,7 @@ i {
 p {
     margin: 0 auto;
     padding: 0px 50px;
+    max-width: 96%;
 }
 
 .temp{
