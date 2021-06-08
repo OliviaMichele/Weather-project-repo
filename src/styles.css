@@ -27,6 +27,11 @@ i {
     padding: 10px;
 }
 
+p {
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+
 .temp{
     font-weight: bold;
 
